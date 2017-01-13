@@ -142,7 +142,7 @@ def api_server():
             action = data['action']
             if config['use_secure'] == 'True':
                 # Get username and Password form POST and check against passwd file.
-                user = data['name']
+                user = data['user']
                 passwd = data['passwd']
                 auth = auth_user(user,passwd)
             else:
