@@ -1,0 +1,10 @@
+{
+    "logfile" : "/full/path/to/hub.log",
+    "https" : "True",
+    "sslcrt" : "/full/path/to/SSL/hub.crt",
+    "sslkey" : "/full/path/to/SSL/hub.key",
+    "apikey" : "someRandomJunkAsAnAPIKey",
+    "use_secure" : "True",
+    "passwd_file" : "/full/path/to/HomeHub.pass"
+
+}
